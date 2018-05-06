@@ -4,7 +4,7 @@
 export K8SHA_IPLOCAL=172.16.189.84
 
 # local machine etcd name, options: etcd1, etcd2, etcd3
-export K8SHA_ETCDNAME=etcd1
+export K8SHA_ETCDNAME=k8smaster01.fyre.ibm.com
 
 # local machine keepalived state config, options: MASTER, BACKUP. One keepalived cluster only one MASTER, other's are BACKUP
 export K8SHA_KA_STATE=MASTER
@@ -32,13 +32,13 @@ export K8SHA_IP2=172.16.191.47
 export K8SHA_IP3=172.16.191.247
 
 # master01 hostname
-export K8SHA_HOSTNAME1=k8smaster01
+export K8SHA_HOSTNAME1=k8smaster01.fyre.ibm.com
 
 # master02 hostname
-export K8SHA_HOSTNAME2=k8smaster02
+export K8SHA_HOSTNAME2=k8smaster02.fyre.ibm.com
 
 # master03 hostname
-export K8SHA_HOSTNAME3=k8smaster03
+export K8SHA_HOSTNAME3=k8smaster03.fyre.ibm.com
 
 # keepalived auth_pass config, all masters must be same
 export K8SHA_KA_AUTH=4cdf7dc3b4c90194d1600c483e10ad1d
